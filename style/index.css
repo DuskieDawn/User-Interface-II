@@ -49,6 +49,10 @@ table {
 
 /*top section*/
 
+html {
+  font-size: 62.5%
+}
+
 .container {
     height: 100px;
     padding: 60px;
@@ -57,14 +61,15 @@ table {
         }
   
   h1 {
-    font-size: 55px;
+    font-size: 5.5rem;
     color: teal;
     padding: 10px;
     border: 10px;
-    margin: 10px;
-   
+    margin: 10px;   
   }
+
   .container  a {
+    font-size: 2rem;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
@@ -121,12 +126,13 @@ table {
 
 h2 {
   color: purple;
-  font-size: 40px;
+  font-size: 4rem;
   padding: 50px;
  }
 
 
 .button a {
+  font-size: 2rem;
   color: purple;
   text-decoration: none;
   padding: 20px 15px;
@@ -134,9 +140,11 @@ h2 {
   display: inline-block;
   border-radius: 15px;
   background-color: black;
-    }
+}
+
 p
  {
+  font-size: 2rem;
   padding: 50px;
 }
 
@@ -149,8 +157,8 @@ p
   padding: 100px;
   display: fixed;
   flex: 33.33%;
-  
-}
+  }
+
 .row-one .photo {
   padding: 100px;
   padding-bottom: 50px;
@@ -173,8 +181,7 @@ p
 
  
 .row-two .photo {
- 
-  padding: 100px;
+   padding: 100px;
   padding-top: 0px;
   display: flex;
   flex-direction: row;
@@ -198,6 +205,7 @@ p
 
   footer .bottom a {
     color: teal;
+    font-size: 2rem;
     text-decoration: none;
     padding: 20px 15px;
     text-align: center;
@@ -206,7 +214,79 @@ p
     background-color: black;
   }
   
+  /*ABOUT PAGE*/
 
+  .container-about h1{
+    color: black;
+}
+.container-about {
+  display: flex;
+  justify-content: center;
+}
 
+.container-about {
+    width: 100%;
+    padding: 40px;
+    padding-bottom: 30px;
+    background: purple; 
+        }
 
+.container-about a:link {
+    color: teal;
+    background-color: black;
+    border: 1px solid black;
+  }
+  
+.container-about a {
+    font-size: 2rem;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+  .facebook p {
+    font-size: 2.3rem;
+    color: blue;
+  }
+  #about-top {
+    color: pink;
+  }
+
+  #about-top h2 {
+    color: pink;
+    font-size: 4rem; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .facebook  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .twitter p {
+    font-size: 2.3rem;
+    color: skyblue;
+  }
+  
+  .twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pinterest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pinterest p {
+    font-size: 2.3rem;
+    color: red;
+  }
 
