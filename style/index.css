@@ -1,1 +1,292 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*top section*/
+
+html {
+  font-size: 62.5%
+}
+
+.container {
+    height: 100px;
+    padding: 60px;
+    padding-bottom: 60px;
+    background: purple; 
+        }
+  
+  h1 {
+    font-size: 5.5rem;
+    color: teal;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;   
+  }
+
+  .container  a {
+    font-size: 2rem;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    left: 45px;
+  }
+  .container a:link {
+    color: teal;
+    background-color: black;
+    border: 1px solid black;
+  }
+  
+  .container  a:visited {
+    color: black;
+    background-color: white;
+    border: 3px solid red;
+  }
+  
+  .container  a:hover {
+    color: black;
+    background-color: white;
+    border: 3px solid red;
+  }
+    
+  .container  a {
+    display: inline-box;
+  }
+  /*end top section*/
+ 
+  /*middle section*/
+
+#middle {
+  display: flex;
+  flex-direction: row;  
+}
+
+.me {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  left: 500px;
+  top: 60px;
+}
+
+.profile img {
+  border-radius: 25px;
+  position: relative;
+  top: 60px;
+  left: 100px;
+  }
+
+h2 {
+  color: purple;
+  font-size: 4rem;
+  padding: 50px;
+ }
+
+
+.button a {
+  font-size: 2rem;
+  color: purple;
+  text-decoration: none;
+  padding: 20px 15px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: black;
+}
+
+p
+ {
+  font-size: 2rem;
+  padding: 50px;
+}
+
+/*end  of middle section*/
+
+.photo img {
+  max-width:50%;
+  height:auto;
+  border-radius: 25px;
+  padding: 100px;
+  display: fixed;
+  flex: 33.33%;
+  }
+
+.row-one .photo {
+  padding: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
+.pic a {
+  color: teal;
+  text-decoration: none;
+  padding: 20px 15px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: black;
+  position: relative;
+  top: 470px;
+  left: 300px;
+ }
+
+ 
+.row-two .photo {
+   padding: 100px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
+/*start of bottom*/
+.bottom h3 {
+  font-size: 30px;
+   padding: 30px;
+  }
+  
+  .bottom {
+    height: 100px;
+    padding: 60px;
+    background: purple; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+
+  footer .bottom a {
+    color: teal;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 20px 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: black;
+  }
+  
+  /*ABOUT PAGE*/
+
+  .container-about h1{
+    color: black;
+}
+.container-about {
+  display: flex;
+  justify-content: center;
+}
+
+.container-about {
+    width: 100%;
+    padding: 40px;
+    padding-bottom: 30px;
+    background: purple; 
+        }
+
+.container-about a:link {
+    color: teal;
+    background-color: black;
+    border: 1px solid black;
+  }
+  
+.container-about a {
+    font-size: 2rem;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+  .facebook p {
+    font-size: 2.3rem;
+    color: blue;
+  }
+  #about-top {
+    color: pink;
+  }
+
+  #about-top h2 {
+    color: pink;
+    font-size: 4rem; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .facebook  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .twitter p {
+    font-size: 2.3rem;
+    color: skyblue;
+  }
+  
+  .twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pinterest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pinterest p {
+    font-size: 2.3rem;
+    color: red;
+  }
+
